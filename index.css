@@ -1,7 +1,3 @@
-html {
-    margin: 0;
-    padding: 0;
-}
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 13pt;
@@ -13,12 +9,14 @@ h1 {
     font-size: 15pt;
     color: #20bcd5;
     text-align: center;
-    padding: 18px 0 18px 0;
-    margin: 0 0 10px 0;
+    padding: 0;
+    margin: 10px 235px 10px 235px;
+    border: #680001 dotted;
 }
 p {
     padding: 0;
     margin: 0;
+    text-align: justify;
 }
 .section {
     background-color: #fff;
@@ -27,69 +25,90 @@ p {
     border-radius: 10px;
 }
 #header {
-    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
-    background-size: cover;
+    background-color: #ffffff
 }
 #header img {
     display: block;
-    width: 80px;
-    height: 80px;
     margin: auto;
 }
 #header p {
-    font-size: 25pt;
-    color: #3b464c;
-    padding-top: 5px;
-    margin: 0;
+    font-size: 18pt;
+    color: black;
     font-weight: bold;
-    text-align: center;
+    display: flex;
+    justify-content:center;
+    margin: 15px;
 }
-.quote {
-    font-size: 12pt;
-    text-align: right;
-    margin-top: 10px;
+#header span{
+    font-size: 25pt;
+    font-weight: bold;
+    color: #680001;
+    display: flex;
+    justify-content:center;
+    margin: 15px;
 }
+#header div {
+    font-size: 13pt;
+    color: black;
+    display: flex;
+    justify-content:center;
+    margin: 15px;
+}
+.me {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+#about{
+    column-count: auto;
+}
+#about div{
+    margin: 15px 0px 15px 0px;
+    font-size: 14pt;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    color: white;
+    -webkit-text-stroke: #680001 0.6pt;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 table {
     width: 100%;
-    font-size: 11pt;
+    font-size: 9pt;
 }
 table, th, td {
-    border: 2px solid #cecece;
+    border: 2px solid #680001;
     border-collapse: collapse;
     text-align: center;
     table-layout: fixed;
 }
 li {
+    list-style-image: url(heart-like.png);
     margin-bottom: 15px;
     font-weight: bold;
+    color: white;
+    -webkit-text-stroke: #680001 0.6pt;
 }
 progress {
     width: 70%;
     height: 20px;
-    color: #3fb6b2;
-    background: #efefef;
+    color: #680001;
+    background: #9e9e9e;
 }
 progress::-webkit-progress-bar {
-    background: #efefef;
+    background: #9e9e9e;
 }
 progress::-webkit-progress-value {
-    background: #3fb6b2;
+    background: #680001;
 } 
-progress::-moz-progress-bar {
-    color: #3fb6b2;
-    background: #efefef;
-}
-hr {
-    border: 0;
-    height: 1px;
-    background: #f36f48;
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 15px double #680001;
 }
 form {
     text-align: center;
     margin-top: 0;
 }
 .submit {
-    background-color: #3fb6b2;
+    background-color: #680001;
     padding: 12px 45px;
     border-radius: 5px;
     cursor: pointer;
@@ -100,7 +119,7 @@ form {
     font-weight: bold;
 }
 .submit:hover {
-    background-color: #43a09d;
+    background-color: #ff8282;
 }
 textarea {
     height: 100px;
@@ -116,20 +135,11 @@ input, textarea {
     width: 70%;
     outline: none;
 }
-#contacts img {
-    height: 50px;
-    width: 50px;
-    margin-left: 7px;
-    margin-right: 7px;
-}
-#contacts a {
-    text-decoration: none;
-}
-#contacts img:hover {
-    opacity: 0.8;
-}
 #contacts {
     text-align: center;
+}
+#contacts a{
+    padding: 12px;
 }
 .copyright {
     font-size: 8pt;
