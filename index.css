@@ -80,7 +80,7 @@ table, th, td {
     table-layout: fixed;
 }
 li {
-    list-style-image: url(heart-like.png);
+    list-style-image: url(./images/heart-like.png);
     margin-bottom: 15px;
     font-weight: bold;
     color: white;
